@@ -4,6 +4,12 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+// fstab
+prebuilt_etc {
+    name: "fstab.qcom",
+    src: "etc/fstab.qcom",
+    vendor: true,
+}
 // Init scripts
 sh_binary {
     name: "init.class_main.sh",
